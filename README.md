@@ -1,4 +1,6 @@
-First off, HUGE credit to @whydoihavetoart for the Byler Art used in this skin! https://x.com/whydoihavetoart/status/2001349297812676763/photo/1
+4/1: Fixed an issue with the navigation bar dropdown menu not appearing. Please update the code on AO3.
+
+HUGE credit to @whydoihavetoart for the Byler Art used in this skin! https://x.com/whydoihavetoart/status/2001349297812676763/photo/1
 
 If you have any feedback or run into any issues with the skin, please message me on twitter! (same username)
 
