@@ -1,3 +1,7 @@
+/* ============================================================
+   AO3 SKIN — full stylesheet
+   ============================================================ */
+
 body,
 p,
 li,
@@ -113,7 +117,7 @@ a:focus {
   margin: 0;
   min-height: 450px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden removed — it was clipping dropdown menus */
 }
 
 #header h1,
@@ -155,6 +159,13 @@ a:focus {
 
 #header .primary li:first-child {
   margin-left: 0em;
+}
+
+/* Dropdowns must sit above everything */
+#header .dropdown .menu,
+#header .primary .dropdown .menu {
+  z-index: 100;
+  position: absolute;
 }
 
 #greeting {
@@ -203,6 +214,11 @@ a:focus {
 
 #greeting .menu {
   width: 16em;
+}
+
+#greeting .dropdown .menu {
+  z-index: 100;
+  position: absolute;
 }
 
 #header .logo {
@@ -601,7 +617,7 @@ ul.work.navigation.actions li button:hover,
 p.kudos {
   position: relative;
   padding-top: 120px;
-  margin-top: -40px;
+  margin-top: 5px;
   display: block;
   text-align: center;
   background-image: none !important;
@@ -664,8 +680,4 @@ dd.kudos img,
 
 .required {
   color: #c8a96e;
-}
-
-p.kudos {
-  margin-top: 5px;
 }
