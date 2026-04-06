@@ -113,7 +113,6 @@ a:focus {
   margin: 0;
   min-height: 450px;
   position: relative;
-  /* overflow: hidden removed — it was clipping dropdown menus */
 }
 
 #header h1,
@@ -157,7 +156,6 @@ a:focus {
   margin-left: 0em;
 }
 
-/* Dropdowns must sit above everything */
 #header .dropdown .menu,
 #header .primary .dropdown .menu {
   z-index: 100;
@@ -676,4 +674,38 @@ dd.kudos img,
 
 .required {
   color: #c8a96e;
+}
+
+ul.required-tags .text,
+ul.required-tags span.text,
+span.rating-explicit span.text,
+span.rating-notrated span.text,
+span.rating-teen span.text,
+span.rating-mature span.text,
+span.rating-general-audience span.text,
+span.warning-choosenotto span.text,
+span.warning-yes span.text,
+span.warning-no span.text,
+span.category-slash span.text,
+span.category-gen span.text,
+span.category-femslash span.text,
+span.category-het span.text,
+span.category-multi span.text,
+span.category-other span.text,
+span.complete-yes span.text,
+span.complete-no span.text,
+span.public span.text {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  display: block !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+}
+
+span.private span.text {
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
 }
