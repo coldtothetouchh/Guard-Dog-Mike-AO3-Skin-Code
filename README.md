@@ -1,6 +1,5 @@
-4/1: Fixed an issue with the navigation bar dropdown menu not appearing. Please update the code on AO3.
-
-4/5: Fixed an issue where the symbol key text were popping up, interferring with the icons. Please update the code on AO3.
+-4/1: Fixed an issue with the navigation bar dropdown menu not appearing. Please update the code on AO3.
+-4/5: Fixed an issue where the symbol key text was overlapping with the icons. Please update the code on AO3.
 
 HUGE credit to @whydoihavetoart for the Byler Art used in this skin! https://x.com/whydoihavetoart/status/2001349297812676763/photo/1
 
