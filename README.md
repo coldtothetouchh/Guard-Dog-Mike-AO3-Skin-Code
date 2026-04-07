@@ -1,4 +1,5 @@
-4/6: -Redesigned the dashboard so buttons weren't overlapping. Please update the code on AO3.
+April 6 Update: 
+-Redesigned the dashboard so buttons weren't overlapping. 
 -Fixed an issue where the symbol key text was overlapping with the icons.
 -Fixed an issue with the navigation bar dropdown menu not appearing.
 
